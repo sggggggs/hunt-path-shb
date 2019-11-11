@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Shadowbringers Hunt Paths</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="container">
+            <div id="zone-header-container"></div>
+            <div id="maps-container"></div>
+        </div>
+    </body>
+</html>
+<template id="zone-header-template">
+    <div class="zone-header"></div>
+</template>
+<template id="map-container-template">
+    <div class="map-container">
+        <div class="map-name"></div>
+        <canvas class="map-canvas"></canvas>
+        <div class="marks">
+            <div class="mark-container">
+                <div class="mark-icon mark-a"></div><span class="mark-name mark-a"></span>
+            </div>
+            <div class="mark-container">
+                <div class="mark-icon mark-b"></div><span class="mark-name mark-b"></span>
+            </div>
+        </div>
+    </div>
+</template>
