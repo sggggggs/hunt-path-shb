@@ -91,7 +91,6 @@
         ],
         "teleports": [
             [14.6, 31.7, 0.4, "Aetheryte"],
-            [20.0, 4.2, 1.0, "Aetheryte"],
             [29.1, 7.7, 0.8, "Aetheryte"]],
         "spawns": [
             [29.25, 5.45, 0.80, "Spawn", true, true],
